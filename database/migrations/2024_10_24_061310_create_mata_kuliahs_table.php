@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('nama_matakuliah', 100); // Nama mata kuliah
             $table->integer('tingkat'); // Tingkat (contoh: 1, 2, 3, dst.)
             $table->date('tanggal_mulai')->nullable(); // Tanggal mulai (nullable)
-            $table->date('tanggal_selesai')->nullable(); // Tanggal selesai (nullable)
-            $table->timestamps(); // created_at dan updated_at
+            $table->date('tanggal_selesai')->nullable(); 
+            $table->timestamps();
         });
     }
 
